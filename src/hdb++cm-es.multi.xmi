@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<pogoDsl:PogoSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:pogoDsl="http://www.esrf.fr/tango/pogo/PogoDsl">
+  <multiClasses pogoRevision="9.4" name="hdb++cm-es" sourcePath="/mntdirect/_segfs/tango/cppserver/admin/hdb/hdb++_github/hdbpp-cm-es/src" description="HDB++ device server able to export HdbConfigurationManager and &#xA;HdbEventSubscriber devices" filestogenerate="XMI   file,Code files,Makefile,CMakeLists,Protected Regions">
+    <classes classname="HdbEventSubscriber" sourcePath="../.hdbpp-es/src">
+      <inheritances classname="Device_4Impl" sourcePath=""/>
+      <additionalFiles name="HdbDevice" path="/mntdirect/_segfs/tango/cppserver/admin/hdbevent/HdbDevice.cpp"/>
+      <additionalFiles name="PushThread" path="/mntdirect/_segfs/tango/cppserver/admin/hdbevent/PushThread.cpp"/>
+      <additionalFiles name="SubscribeThread" path="/mntdirect/_segfs/tango/cppserver/admin/hdbevent/SubscribeThread.cpp"/>
+    </classes>
+    <classes classname="HdbConfigurationManager" sourcePath="../.hdbpp-cm/src">
+      <inheritances classname="Device_Impl" sourcePath=""/>
+    </classes>
+    <preferences makefileHome="/segfs/tango/cppserver/env"/>
+  </multiClasses>
+</pogoDsl:PogoSystem>
