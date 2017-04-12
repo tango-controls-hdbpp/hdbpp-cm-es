@@ -1,4 +1,4 @@
-# hdbpp-cm
+# hdbpp-cm-es
 Tango device server able to export HDB++ Configuration Manager and 
 HDB++ Event Subscriber devices.
 
