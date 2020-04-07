@@ -1,8 +1,8 @@
 [submodule ".hdbpp-cm"]
 	path = .hdbpp-cm
-	url = https://github.com/tango-controls/hdbpp-cm
-	branch = master
+	url = https://github.com/tango-controls-hdbpp/hdbpp-cm.git
+	branch = integrated-build 
 [submodule ".hdbpp-es"]
 	path = .hdbpp-es
-	url = https://github.com/tango-controls/hdbpp-es
-	branch = master
+	url = https://github.com/tango-controls-hdbpp/hdbpp-cm.git
+	branch = integrated-build
